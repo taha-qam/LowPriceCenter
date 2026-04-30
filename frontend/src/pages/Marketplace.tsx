@@ -150,7 +150,7 @@ export function Marketplace() {
                       setFilters({ ...filters, sortBy: e.target.value as "price" | "timeCreated" })
                     }
                   >
-                    <option value="timeCreated">Featured</option>
+                    <option value="timeCreated">Time</option>
                     <option value="price">Price</option>
                   </select>
 
